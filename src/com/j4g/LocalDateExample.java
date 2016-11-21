@@ -35,7 +35,18 @@ public class LocalDateExample {
 		System.out.println("is today before lastSunday? "+ date.isBefore(lastSunday));
 		System.out.println("is today equals lastSunday? "+ date.equals(lastSunday));
 		
-		
+		System.out.println("\nminus and plus methods");
+		System.out.println(date);
+		System.out.println("minus days:"+ date.minusDays(8));
+		System.out.println("minus months:"+ date.minusMonths(2));
+		System.out.println("minus weeks:"+ date.minusWeeks(4));
+		System.out.println("minus years:"+ date.minusYears(1));
+	
+		System.out.println("plus days:"+ date.plusDays(8));
+		System.out.println("plus months:"+ date.plusMonths(2));
+		System.out.println("plus weeks:"+ date.plusWeeks(4));
+		System.out.println("plus years:"+ date.plusYears(1));
+		System.out.println(date);
 		
 	}
 }
