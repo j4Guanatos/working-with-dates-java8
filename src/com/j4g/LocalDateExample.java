@@ -48,5 +48,15 @@ public class LocalDateExample {
 		System.out.println("plus years:"+ date.plusYears(1));
 		System.out.println(date);
 		
+		date = LocalDate.now();
+		System.out.println("\nwith method");
+		System.out.println(date);
+		System.out.println("with day of month:"+ date.withDayOfMonth(1));
+		System.out.println("with day of year:"+ date.withDayOfYear(1));
+		System.out.println("with month:"+ date.withMonth(7));
+		System.out.println("with year:"+ date.withYear(1));
+		
+		
+		
 	}
 }
